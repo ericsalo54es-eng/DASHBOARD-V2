@@ -1,6 +1,6 @@
 {
-  "name": "Command Center",
-  "short_name": "Command",
+  "name": "ERIC Dashboard",
+  "short_name": "ERIC",
   "description": "Personal life and career dashboard",
   "start_url": "./",
   "scope": "./",
