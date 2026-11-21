@@ -9,4 +9,3 @@ window.ERIC_FIREBASE_CONFIG = {
   messagingSenderId: "1082210853485",
   appId: "1:1082210853485:web:706fc377d9c3f4a8311564"
 };
-};
