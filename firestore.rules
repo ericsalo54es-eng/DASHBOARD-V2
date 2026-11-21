@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Dashboard stores items in: data/users/{authenticated-uid}/{item-id}
+    match /data/users/{userId}/{itemId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    // Every other document is denied unless another explicit rule is added.
+  }
+}
